@@ -1,0 +1,183 @@
+
+/**{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	min-width: 986px;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}*/
+.mainwidth{
+	width: 986px;
+	margin: 0 auto;
+}
+
+
+
+header{
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header div{
+	height: 28px;
+	width: 446px;
+	background: url(../img/loginmain.png) no-repeat 0 -188px;
+	float: right;
+}
+
+article{
+	height: 500px;
+}
+article #divleft{
+	margin: 50px 0 0 50px;
+	width: 480px;
+	height: 354px;
+	float: left;
+}
+article #divright{
+	width: 370px;
+	margin-top: 30px;
+	height: 470px;
+	float: right;
+}
+#divright  p{
+	height:34px;
+	width:276px;
+	
+}
+#divright  div{
+	height:34px;
+	width:276px;
+	margin-bottom: 24px;
+	color: #bfbdbf;
+	position: relative;
+}
+#divright  div input{
+	width: 100%;
+	height: 32px;
+	border: 1px solid #bfbdbf;
+	text-indent: 10px;
+	outline: 0;
+	
+}
+#divright .tel input.active{
+	border:1px solid #7cdcee;
+}
+#divright .pwd input.active{
+	border:1px solid #7cdcee;
+}
+#divright .pwd_1 input.active{
+	border:1px solid #7cdcee;
+}
+#divright .verity input.active{
+	border:1px solid #7cdcee;
+}
+
+#divright  div span{
+	display: block;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	color: #e5811f;
+	position: absolute;
+	bottom: -24px;
+	display: none;
+
+}
+#divright div .sjyzm{
+	display:inline-block;
+	width:60px;height:20px;
+	background:#6ad7ec;
+	color: #fff;
+	position:absolute;
+	right:0;
+	top:-20px;
+	text-align:center;
+	line-height: 20px;
+	font-size:16px;
+}
+#divright div .sxyzm{
+	display:inline-block;
+	width:66px;height:20px;
+	background-color:red;
+	font-size:12px;
+	color: #fff;
+	position:absolute;
+	right:0;
+	top:40%;
+	cursor: pointer;
+}
+
+#divright p span{
+	float: right;
+}
+#divright p span a{
+	color: #f3879f;
+}
+#divright  div:nth-of-type(2){
+	line-height: 16px;
+	height:16px;
+	color: #000;
+}
+
+#divright  div:nth-of-type(2) input{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	text-indent: 0;
+}
+#divright  div:nth-of-type(5) input{
+	width: 128px;
+	float: left;
+	
+	border-radius: 4px;
+
+}
+#divright  div:nth-of-type(5) a{
+	display: block;
+	height: 28px;
+	float: left;
+	margin-left: 4px;
+	margin-top: 2px;
+	background: #fff5ed;
+	border: 1px solid #ffbd89;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 28px;
+	color:#000;
+}
+#divright button{
+	width: 140px;
+	height: 40px;
+	border-radius: 4px;
+	border: 0;
+	background: #df3989;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 6px 0;
+}
+#divright  p:last-child span{
+	float: none;
+	line-height: 34px;
+}
+#divright  p:last-child input{
+	
+}
+
+footer p{
+	line-height: 24px;
+	color: #555555;
+	text-align: center
+}
+
+footer p:nth-of-type(1) a{
+	color: #555555;
+	margin: 0 12px;
+}

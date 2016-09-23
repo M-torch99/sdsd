@@ -1,0 +1,39 @@
+html,body{width:984px;}
+.title{width:984px;height:158px;margin-top:40px;margin-left:174px;}
+.title .logo{width:264px;height:76px;float:left;}
+.title .servers{width:428px;height:76px;float:right;}
+.title .servers .promise{width:428px;height:54px;padding-top:22px;}
+.title .servers .promise li{float:left;padding-right:20px;}
+.title .servers .promise li span{display:inline-block;float:left;}
+.title .servers .promise li a{display:inline-block;float: left;font-size:15px;height:28px;line-height:28px;color:#333333;padding-left:4px;}
+/*-----------------------login------------------------*/
+.login{width:792px;height:662px;margin-left:174px;}
+.login .log_left{width:340px;height:554px;float:left;}
+.login .log_right{width:282px;height:582px;float:right;}
+.login .log_right .qinqin{font-size:13px;color:#000000;}
+.login .log_right .goback,a{font-size:12px;color:#000000;font-weight:normal;}
+.login .log_right  input{width:274px;height:34px;border:1px solid #c5c4c5;border-radius:4px;text-indent:12px;line-height:34px;font-size:14px;color:#c5c4c5;}
+.login .log_right .inp_1{margin-top:20px;}
+.login .log_right .inp_1.active{border:1px solid #70d9ed;}
+.login .log_right .pwd input.active{border:1px solid #70d9ed;}
+.login .insert{font-size:13px;color:#b2b2b2;height:36px;line-height:36px;}
+.login .log_right .denglu{width:140px;height:38px;background-color:#d92a79;font-size:15px;text-align:center;line-height: 40px;border:1px solid #d92a79;border-radius:4px;margin-top:30px;color:#ffffff;}
+.login .log_right .jizhu{width:276px;}
+.login .log_right .jizhu .username{width:13px;height:12px;border:1px solid #707070;margin-top:18px;}
+.login .log_right .jizhu .remember{font-size:12px;color:#666666;}
+.login .log_right .jizhu .forget{font-size:12px;color:#666666;margin-left:78px;}
+.login .log_right .jizhu .free{font-size:12px;color:#f10180;margin-left:8px;}
+.login .log_right .hezuo{width:276px;height:26px;margin-top:56px;}
+.login .log_right .hezuo .cpn_web{font-size:12px;color:#666666;padding-top:10px;}
+.login .log_right .hezuo .pic{width:26px;height:26px;margin-right:4px;}
+.about{width:788px;height:20px;margin-left:292px;}
+.about ul{width:536px;height:16px;margin-left:120px;}
+.about ul li{float:left;padding-left: 12px;}
+.about ul li a{font-size:12px;color:#555555;line-height:16px;padding-right:12px;}
+.tishi{width:678px;margin-top:4px;margin-left:360px;font-size:12px;color:#555555;}
+.biaodan span{color:red !important;}
+
+
+
+
+
